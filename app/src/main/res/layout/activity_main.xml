@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_numbers"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:text="Numbers"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/category_family"
+        android:text="FAMILY MEMBERS"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_colors"
+        android:padding="16dp"
+        android:text="COLORS"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/category_phrases"
+        android:text="PHRASES"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>
